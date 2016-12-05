@@ -81,4 +81,73 @@ header .menu .pri{
     color: #fff;
 }
 
-/*-------------------------------------------------->> SECTION HERO <<--------------------------------------------------*/
+/*-------------------------------------------------->> SECTION SOBRE-MI <<--------------------------------------------------*/
+
+.sobre-mi{
+    padding-top: 5px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: #f05f40;
+}
+
+.sobre-mi h3{
+    text-transform: uppercase;
+}
+
+.sobre-mi hr{
+    margin: 0em 40em;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.sobre-mi p{
+    font-size: 0.8em;
+    margin-top: 1.2em;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+
+/*-------------------------------------------------->> SECTION SERVICIOS <<--------------------------------------------------*/
+
+.servicios{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    |color: red;
+    background-color: #fff;
+}
+
+.servicios h3{
+    text-transform: uppercase;
+}
+
+.servicios hr{
+    margin: 0em 40em;
+    color: #f05f40;
+    border: 1px solid #f05f40;
+}
+
+.servicios .lista{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.servicios .lista li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.servicios .lista p:nth-child(2){
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.servicios .lista p:nth-child(3){
+    font-size: 0.8em;
+}
+
+.servicios .lista i{
+    font-size: 3em;
+    color: #f05f40;
+}
