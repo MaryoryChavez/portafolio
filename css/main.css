@@ -55,13 +55,13 @@ body {
 header {
     font-variant: small-caps;
     margin-top: 5px;
-    opacity: ;
 }
 
-header .logo {
+header .logo a{
     font-size: 1.2em;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.63);
+    text-decoration: none;
 }
 
 header .menu {}
@@ -78,6 +78,19 @@ header .menu a {
 header .menu .pri {
     color: #fff;
 }
+
+/*----->> menu-fixed color <<-----*/
+
+
+.menu-fixed{
+	position:fixed;
+	z-index:1000;
+	top:-5px;
+	left: 0;
+	padding: 8px;
+	background-color: rgba(240, 95, 64, 0.87);
+}
+
 
 
 /*-------------------------------------------------->> SECTION SOBRE-MI <<--------------------------------------------------*/
