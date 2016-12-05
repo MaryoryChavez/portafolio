@@ -1,5 +1,4 @@
-body{
-    background: url('../img/portfolio.png') no-repeat;
+body {
     background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
@@ -8,82 +7,82 @@ body{
 /*-------------------------------------------------->> SECTION HERO <<--------------------------------------------------*/
 
 .hero {
-    |outline: 1px solid red;
     color: #fff;
     background: url('../img/header.jpg') no-repeat;
     background-size: cover;
 }
 
-.hero .marco{
-    padding-top:188px;
+.hero .marco {
+    padding-top: 188px;
     padding-bottom: 240px;
     text-align: center;
 }
 
-.hero .titulo h1{
+.hero .titulo h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 3.2em;
 }
 
-.hero hr{
-    margin: 1.2em 40em;
+.hero hr {
+    margin: 1em 48%;
     color: #f05f40;
     border: 2px solid #f05f40;
 }
 
-.hero .titulo p{
+.hero .titulo p {
     font-size: 1em;
     padding-top: 2px;
     color: rgba(255, 255, 255, 0.61);
 }
 
-.hero .marco .boton{
+.hero .marco .boton {
     margin-top: 40px;
     font-variant: small-caps;
 }
 
-.hero .boton a{
+.hero .boton a {
     padding: 5px 20px;
     border-radius: 20px;
     color: #fff;
     background-color: #f05f40;
 }
 
+
 /*------>> header <<------*/
-header{
+
+header {
     font-variant: small-caps;
     margin-top: 5px;
-    opacity:;
+    opacity: ;
 }
 
-header .logo{
+header .logo {
     font-size: 1.2em;
     font-weight: 600;
-    color:  rgba(255, 255, 255, 0.63);
+    color: rgba(255, 255, 255, 0.63);
 }
 
-header .menu{
-    |margin-right: 5px;
-}
+header .menu {}
 
-header .menu li{
+header .menu li {
     margin: 0 5px;
 }
 
-header .menu a{
+header .menu a {
     padding: 0 5px;
     color: rgba(255, 255, 255, 0.63);
 }
 
-header .menu .pri{
+header .menu .pri {
     color: #fff;
 }
 
+
 /*-------------------------------------------------->> SECTION SOBRE-MI <<--------------------------------------------------*/
 
-.sobre-mi{
+.sobre-mi {
     padding-top: 5px;
     padding-bottom: 100px;
     text-align: center;
@@ -91,17 +90,17 @@ header .menu .pri{
     background-color: #f05f40;
 }
 
-.sobre-mi h3{
+.sobre-mi h3 {
     text-transform: uppercase;
 }
 
-.sobre-mi hr{
-    margin: 0em 40em;
+.sobre-mi hr {
+    margin: 0em 48%;
     color: #fff;
     border: 2px solid #fff;
 }
 
-.sobre-mi p{
+.sobre-mi p {
     font-size: 0.8em;
     margin-top: 1.2em;
     color: rgba(255, 255, 255, 0.72);
@@ -110,44 +109,176 @@ header .menu .pri{
 
 /*-------------------------------------------------->> SECTION SERVICIOS <<--------------------------------------------------*/
 
-.servicios{
+.servicios {
     padding-top: 20px;
     padding-bottom: 50px;
     text-align: center;
-    |color: red;
     background-color: #fff;
 }
 
-.servicios h3{
+.servicios h3 {
     text-transform: uppercase;
 }
 
-.servicios hr{
-    margin: 0em 40em;
+.servicios hr {
+    margin: 0em 48%;
     color: #f05f40;
     border: 1px solid #f05f40;
 }
 
-.servicios .lista{
+.servicios .lista {
     padding-right: 50px;
     padding-top: 20px;
 }
 
-.servicios .lista li{
+.servicios .lista li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.servicios .lista p:nth-child(2){
+.servicios .lista p:nth-child(2) {
     font-weight: 500;
     padding-top: 5px;
 }
 
-.servicios .lista p:nth-child(3){
+.servicios .lista p:nth-child(3) {
     font-size: 0.8em;
 }
 
-.servicios .lista i{
+.servicios .lista i {
     font-size: 3em;
     color: #f05f40;
+}
+
+
+/*-------------------------------------------------->> SECTION PROYECTOS <<--------------------------------------------------*/
+
+.proyectos {
+    background-color: #222222;
+}
+
+.grid-proyect {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.grid-proyect li {
+    display: inline-block;
+    float: left;
+    width: 33.333%;
+}
+
+.grid-proyect img {
+    width: 100%;
+}
+
+.pestaña {
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+
+.pestaña .mascara {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0px;
+}
+
+.letrero img {
+    transition: all 0.3s ease-in-out;
+}
+
+.letrero .mascara {
+    background-color: rgba(240, 95, 64, 0.72);
+    transform: translateX(-421px);
+    transition: all 0.3s ease-in-out;
+    padding: 4em;
+    width: 100%;
+    height: 100%;
+}
+
+.letrero .mascara1 {
+    padding: 1em 0;
+}
+
+.letrero p {
+    color: rgba(255, 255, 255, 0.89);
+    transition: all 0.2s linear;
+}
+
+.letrero p:nth-child(1) {
+    font-size: 1.1em;
+    color: rgba(59, 57, 57, 0.72);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.letrero:hover .mascara {
+    transform: translateX(0px);
+}
+
+.info {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.info p {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.info .boton {
+    margin-top: 15px;
+}
+
+.info .boton a {
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-variant: small-caps;
+    color: #000000;
+    background-color: #fff;
+}
+
+
+/*-------------------------------------------------->> FOOTER <<--------------------------------------------------*/
+
+footer {
+    padding-top: 47px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+footer hr {
+    margin: 0em 48%;
+    color: #f05f40;
+    border: 1px solid #f05f40;
+}
+
+footer p {
+    padding-top: 15px;
+    font-size: 0.8em;
+}
+
+.contact li {
+    display: inline-block;
+    margin: 0 80px;
+}
+
+footer .contact i {
+    padding-top: 4px;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+footer .contact p {
+    padding-top: 0;
 }
